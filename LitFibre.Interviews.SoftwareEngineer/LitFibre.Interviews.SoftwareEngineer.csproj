@@ -7,7 +7,13 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.2" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\LitFibre.Interviews.SoftwareEngineer.Models\LitFibre.Interviews.SoftwareEngineer.Models.csproj" />
+    <ProjectReference Include="..\LitFibre.Interviews.SoftwareEngineer.Services\LitFibre.Interviews.SoftwareEngineer.Services.csproj" />
   </ItemGroup>
 
 </Project>
